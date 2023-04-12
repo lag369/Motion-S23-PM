@@ -16,13 +16,13 @@ nav{
             a:link, a:visited{
 
                 font-family: "Roboto Slad", serif;
-                color: $blue;
+                color: #061928;
                 transition: 0.25s;
                 font-size: rem-calc(18);
                 font-weight: 300;
 
                 &:hover, &:active{
-                    color: $purple;
+                    color: #A97DA2;
                 }
 
             }
