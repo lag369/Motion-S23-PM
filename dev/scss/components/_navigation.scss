@@ -2,27 +2,30 @@
     Navigation
 ============= */
 nav{
+    
     height:100%;
-
+    
     ul{
+        
         height:100%;
-        display: flex;
+        display:flex;
         justify-content: flex-end;
         align-items: center;
+        list-style-type: none;
+        margin: 0;
 
         li{
             margin-left: 4vw;
 
             a:link, a:visited{
-
-                font-family: "Roboto Slad", serif;
-                color: #061928;
+                font-family: 'Roboto Slab', serif;
+                color:var(--blue);
                 transition: 0.25s;
                 font-size: rem-calc(18);
                 font-weight: 300;
 
                 &:hover, &:active{
-                    color: #A97DA2;
+                    color: var(--purple);
                 }
 
             }

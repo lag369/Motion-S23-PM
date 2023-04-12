@@ -364,19 +364,21 @@ nav ul {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  list-style-type: none;
+  margin: 0;
 }
 nav ul li {
   margin-left: 4vw;
 }
 nav ul li a:link, nav ul li a:visited {
-  font-family: "Roboto Slad", serif;
-  color: #061928;
+  font-family: "Roboto Slab", serif;
+  color: var(--blue);
   transition: 0.25s;
   font-size: 1.125rem;
   font-weight: 300;
 }
 nav ul li a:link:hover, nav ul li a:link:active, nav ul li a:visited:hover, nav ul li a:visited:active {
-  color: #A97DA2;
+  color: var(--purple);
 }
 
 /* =============
@@ -384,7 +386,7 @@ nav ul li a:link:hover, nav ul li a:link:active, nav ul li a:visited:hover, nav 
 ============= */
 header {
   position: fixed;
-  background-color: #ffffff;
+  background-color: var(--white);
   width: 100%;
   filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.1));
   z-index: 100;
@@ -431,7 +433,7 @@ header > div aside a {
   background-size: cover;
 }
 #hero article #hero-content {
-  color: #fff;
+  color: var(--white);
   text-align: center;
 }
 #hero article #hero-content h1 {
@@ -439,6 +441,7 @@ header > div aside a {
   font-weight: 900;
   line-height: 117px;
   text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.2);
+  margin: 0;
 }
 @media (min-width: 768px) {
   #hero article #hero-content h1 {
