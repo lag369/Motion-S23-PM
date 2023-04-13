@@ -1,8 +1,5 @@
 import { gsap } from "gsap";
 
-
-gsap.set(".red-box",{x:200});
-
 //Keywords - to store data
 
 //var older avoid
@@ -19,12 +16,23 @@ gsap.set(".red-box",{x:200});
 // 4.	Reserved words (like JavaScript keywords) cannot be used as names
 
 //examples
-let TweenDuration = "0.5";
-let someElement = document.querySelector('.red-box');
-let allElementsWithClass = document.querySelectorAll('.box');
-let mainTl = gsap.timeline();
+// let TweenDuration = "0.5";
+ let someElement = document.querySelector('.red-box');
+// let allElementsWithClass = document.querySelectorAll('.box');
+// let mainTl = gsap.timeline();
 
 
+//GSAP
+
+//gsap.to(target, {duration, vars, ease});
+//gsap.set(someElement,{x:200});
+//gsap.set(".green-box",{scale:0.5, rotation:45});
+//gsap.to(".blue-box", {duration:2, x:200, alpha:0.25, y:-200});
+//gsap.to(".red-box", {duration:2, x:400});
+//gsap.from(".green-box", {duration:2, scale:2, rotation:180});
+gsap.to([".red-box",".green-box"], {duration:2, x:200, alpha:0.25, y:-200});
+
+//.set 
 
 
 
