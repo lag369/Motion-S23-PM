@@ -17,7 +17,7 @@ import { gsap } from "gsap";
 
 //examples
 // let TweenDuration = "0.5";
- let someElement = document.querySelector('.red-box');
+ //let someElement = document.querySelector('.red-box');
 // let allElementsWithClass = document.querySelectorAll('.box');
 // let mainTl = gsap.timeline();
 
@@ -30,9 +30,28 @@ import { gsap } from "gsap";
 //gsap.to(".blue-box", {duration:2, x:200, alpha:0.25, y:-200});
 //gsap.to(".red-box", {duration:2, x:400});
 //gsap.from(".green-box", {duration:2, scale:2, rotation:180});
-gsap.to([".red-box",".green-box"], {duration:2, x:200, alpha:0.25, y:-200});
+//gsap.to([".red-box",".green-box"], {duration:2, x:200});
+//gsap.to(".box", {duration:0.25, x:200, delay:1});
 
 //.set 
+
+//CSS
+//gsap.to(".green-box", {duration:2, backgroundColor:"black", delay:1});
+
+//Transforms = rotation, scaleX, scaleY, skewX, skewY, x, y, rotationX, and rotationY, alpha, autoalpha
+
+//Special Properties = Duration, callbacks, delays, easing, staggers, repeat, yoyo, repeatDelay
+
+//gsap.to(".box", {duration:0.25, x:200, delay:1, yoyo:true, repeat:5, repeatDelay:0.25});
+
+//gsap.to(".box", {duration:0.25, x:200, delay:1, stagger:0.5});
+
+
+//gsap.to(".box", {duration:0.25, rotation:"90deg", delay:1, stagger:0.5});
+gsap.to(".blue-box", {duration:0.25, rotation:"90_cw", delay:1, stagger:0.5});
+gsap.to(".green-box", {duration:0.25, rotation:"180_ccw", delay:1, stagger:0.5});
+//gsap.set(".blue-box", {rotation:45});
+//gsap.to(".blue-box", {duration:0.25, rotation:"90_short", delay:2});
 
 
 
