@@ -21,13 +21,24 @@ import { gsap } from "gsap";
 // let allElementsWithClass = document.querySelectorAll('.box');
 // let mainTl = gsap.timeline();
 
+//GSAP Methods
+
+//.set
+//gsap.to(".blue-box", {x:400});
+//.to
+//gsap.to(".blue-box", {duration:2, x:400});
+//.from
+//gsap.from(".blue-box", {duration:2, x:400});
+//.fromTo
+//gsap.fromTo(".blue-box", { x:200 },{duration:2, x:600, delay:1});
+
 
 //GSAP
 
 //gsap.to(target, {duration, vars, ease});
 //gsap.set(someElement,{x:200});
 //gsap.set(".green-box",{scale:0.5, rotation:45});
-//gsap.to(".blue-box", {duration:2, x:200, alpha:0.25, y:-200});
+//gsap.fromTo(".blue-box", { x:200 },{duration:2, x:600, delay:1});
 //gsap.to(".red-box", {duration:2, x:400});
 //gsap.from(".green-box", {duration:2, scale:2, rotation:180});
 //gsap.to([".red-box",".green-box"], {duration:2, x:200});
@@ -48,13 +59,16 @@ import { gsap } from "gsap";
 
 
 //gsap.to(".box", {duration:0.25, rotation:"90deg", delay:1, stagger:0.5});
-gsap.to(".blue-box", {duration:0.25, rotation:"90_cw", delay:1, stagger:0.5});
-gsap.to(".green-box", {duration:0.25, rotation:"180_ccw", delay:1, stagger:0.5});
+//gsap.to(".blue-box", {duration:0.25, rotation:"90_cw", delay:1, stagger:0.5});
+//gsap.to(".green-box", {duration:0.25, rotation:"180_ccw", delay:1, stagger:0.5});
 //gsap.set(".blue-box", {rotation:45});
 //gsap.to(".blue-box", {duration:0.25, rotation:"90_short", delay:2});
 
-//Day 2
+//************   Day 2  ***************\\
 //1. Absolute vs Relative Values
+
+//gsap.to(".blue-box", {duration:0.25, rotation:"90_cw", delay:1, stagger:0.5});
+//gsap.to(".green-box", {duration:0.25, rotation:"180_ccw", delay:1, stagger:0.5});
 
 //2. Origin
 
