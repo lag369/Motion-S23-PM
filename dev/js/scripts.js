@@ -1,5 +1,13 @@
 import { gsap } from "gsap";
 
+
+//Comments
+//single line
+/*
+multi
+line
+*/
+
 //Keywords - to store data
 
 //var older avoid
@@ -66,14 +74,27 @@ import { gsap } from "gsap";
 
 //************   Day 2  ***************\\
 //1. Absolute vs Relative Values
+//gsap.set(".blue-box", {x:200});
+//gsap.set(".green-box", {x:200});
 
-//gsap.to(".blue-box", {duration:0.25, rotation:"90_cw", delay:1, stagger:0.5});
-//gsap.to(".green-box", {duration:0.25, rotation:"180_ccw", delay:1, stagger:0.5});
+// gsap.to(".blue-box", {duration:1, x:300, delay:1});
+// gsap.to(".green-box", {duration:1, x:"-=100", delay:1});
 
 //2. Origin
+//transformOrigin:"200px 0px"
+//transformOrigin:"0% 100%"
+//gsap.to(".blue-box", {duration:1, rotation:"180_cw", delay:1, transformOrigin:"200px 0px"});
+
 
 //3. Percentage-based translation
+//xPercent
+//yPercent
+//gsap.set(".green-box",{xPercent:50, yPercent:50});
 
 //4. Easing ( 	https://greensock.com/ease-visualizer   )
+gsap.to(".red-box", {duration:1, x:200, ease:"back.out(4)"});
+gsap.to(".blue-box", {duration:1, x:200, ease:"none"});
+gsap.to(".green-box", {duration:1, x:200, ease:"power4.out"});
+
 
 
