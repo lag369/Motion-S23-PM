@@ -53,6 +53,13 @@ gsap.to(".green-box", {duration:0.25, rotation:"180_ccw", delay:1, stagger:0.5})
 //gsap.set(".blue-box", {rotation:45});
 //gsap.to(".blue-box", {duration:0.25, rotation:"90_short", delay:2});
 
+//Day 2
+//1. Absolute vs Relative Values
 
+//2. Origin
+
+//3. Percentage-based translation
+
+//4. Easing ( 	https://greensock.com/ease-visualizer   )
 
 
