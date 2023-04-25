@@ -8,5 +8,5 @@ import { gsap } from "gsap";
 
 const mainTL = gsap.timeline({delay:0.5});
 
-mainTL.from(".box", {duration:1, stagger:0.1, scale:0, transformOrigin:"center"});
+//mainTL.from(".box", {duration:1, stagger:0.1, scale:0, transformOrigin:"center"});
 
