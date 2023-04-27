@@ -35,7 +35,7 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/challenge1.gif",
       "oF" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
@@ -45,7 +45,7 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/challenge2.gif",
       "oF" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
@@ -55,7 +55,7 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/challenge3.gif",
       "oF" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
@@ -381,7 +381,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-ucla",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 702951282.61023402
+    "lastBuiltDate" : 704325710.37245095
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
