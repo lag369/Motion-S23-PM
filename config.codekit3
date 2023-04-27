@@ -381,7 +381,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-ucla",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 704325773.04377103
+    "lastBuiltDate" : 704325901.50510299
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -994,7 +994,7 @@
         "optionString" : "{'allowParens': true}"
       },
       "no-console" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "{'allow': ['warn', 'error']}"
       },
       "no-const-assign" : {
