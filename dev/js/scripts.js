@@ -4,24 +4,19 @@ import { gsap } from "gsap";
 
 let mainTl = gsap.timeline({delay:1});
 
-function cubeAni1(){
+function cubeAni(){
 
     let tl = gsap.timeline({delay:1});
    
-    tl.from(".red", {duration:1, x:"0"})
-    .from(".blue", {duration:1, x:"350"})
+    tl
+    .from(".graph", {duration:1, opacity:1})
+    .from(".graph", {duration:1, opacity:0})
+    .from(".red", {duration:1, x:"0", ease: "bounce.out", delay:2})
+    .from(".blue", {duration:1, x:"350", ease: "bounce.out", delay:2})
+    .to(".red", {duration:2, y:"0", delay:2})
+    .to(".blue", {duration:2, y:"300", delay:2, rotation:360})
+    .from(".green", {duration:3, scale:4, delay:0, rotation:360})
     ;
     
 }
-mainTl.add(cubeAni1());
-
-function cubeAni2(){
-
-    let tl = gsap.timeline({delay:1});
-   
-    tl.to(".red", {duration:2, y:"0", delay:2})
-    .to(".blue", {duration:2, 7:"300", delay:2})
-    ;
-    
-}
-mainTl.add(cubeAni2());
+mainTl.add(cubeAni());
