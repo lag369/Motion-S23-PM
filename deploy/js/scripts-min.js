@@ -1,0 +1,1 @@
+!function(a){"use strict";a.gsap.timeline({delay:1}).add(void a.gsap.timeline({delay:1}).from(".red",{duration:1,alpha:0,stagger:.25,x:"0"}).from(".blue",{duration:1,alpha:0,stagger:.25,x:"350"}))}(gsap);
